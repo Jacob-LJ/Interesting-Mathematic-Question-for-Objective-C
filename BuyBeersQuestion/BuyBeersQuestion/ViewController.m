@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+#import "Beer.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Person *person = [[Person alloc] initWithCash:10];
+    
+    Beer *beer = [[Beer alloc] init];
+    /**<告诉person 所要买和喝的啤酒是哪一种类型 */
+    [person goToBuyAndDrinkBeer:beer];
 }
 
 

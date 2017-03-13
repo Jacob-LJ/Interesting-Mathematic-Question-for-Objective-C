@@ -13,6 +13,8 @@
 		165442F41E76E94700330335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165442F21E76E94700330335 /* Main.storyboard */; };
 		165442F61E76E94700330335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165442F51E76E94700330335 /* Assets.xcassets */; };
 		165442F91E76E94700330335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165442F71E76E94700330335 /* LaunchScreen.storyboard */; };
+		165443051E76E9DD00330335 /* Beer.m in Sources */ = {isa = PBXBuildFile; fileRef = 165443021E76E9DD00330335 /* Beer.m */; };
+		165443061E76E9DD00330335 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 165443041E76E9DD00330335 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		165442F51E76E94700330335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165442F81E76E94700330335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		165442FA1E76E94700330335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165443011E76E9DD00330335 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		165443021E76E9DD00330335 /* Beer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beer.m; sourceTree = "<group>"; };
+		165443031E76E9DD00330335 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		165443041E76E9DD00330335 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		165442E81E76E94700330335 /* BuyBeersQuestion */ = {
 			isa = PBXGroup;
 			children = (
+				165443001E76E9D600330335 /* demo */,
 				165442EC1E76E94700330335 /* AppDelegate.h */,
 				165442ED1E76E94700330335 /* AppDelegate.m */,
 				165442EF1E76E94700330335 /* ViewController.h */,
@@ -77,6 +84,17 @@
 				165442EA1E76E94700330335 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		165443001E76E9D600330335 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				165443011E76E9DD00330335 /* Beer.h */,
+				165443021E76E9DD00330335 /* Beer.m */,
+				165443031E76E9DD00330335 /* Person.h */,
+				165443041E76E9DD00330335 /* Person.m */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +170,9 @@
 			files = (
 				165442F11E76E94700330335 /* ViewController.m in Sources */,
 				165442EE1E76E94700330335 /* AppDelegate.m in Sources */,
+				165443061E76E9DD00330335 /* Person.m in Sources */,
 				165442EB1E76E94700330335 /* main.m in Sources */,
+				165443051E76E9DD00330335 /* Beer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
